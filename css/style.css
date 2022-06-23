@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header, footer{
+    background-color: #00ABC5;
+    height: 100px;
+    padding: 2rem;
+    position: relative;
+}
+
+header h1, footer h3{
+    color: white;
+    display: inline-block;
+}
+
+#start-button{
+    padding: 10px;
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-20px);
+}
+
+main{
+    height: calc(100vh - 200px);
+    background-color: #B2E5ED;
+    padding: 2rem;
+}
+
+#grid-parent{
+    width: 700px;
+    height: 700px;
+    margin: 150px auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid white;
+}
+
+.box{   
+    flex-basis: calc(100% / 10);
+    height: calc(100% / 10);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
