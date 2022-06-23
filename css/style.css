@@ -5,7 +5,7 @@
 }
 
 header, footer{
-    background-color: #00ABC5;
+    background-color: #559999;
     height: 100px;
     padding: 2rem;
     position: relative;
@@ -26,13 +26,13 @@ header h1, footer h3{
 
 main{
     height: calc(100vh - 200px);
-    background-color: #B2E5ED;
+    background-color: #115566;
     padding: 2rem;
 }
 
 #grid-parent{
-    width: 700px;
-    height: 700px;
+    width: 699px;
+    height: 699px;
     margin: 150px auto;
     display: flex;
     flex-wrap: wrap;
