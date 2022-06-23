@@ -1,5 +1,6 @@
 const gridParent = document.getElementById('grid-parent');
 const startButton = document.getElementById('start-button');
+const difficulty = document.getElementById('difficulty');
 //creo una funzione per generare un nuovo div con classe box
 function generateNewBox (){
     let item = document.createElement('div');
@@ -9,6 +10,7 @@ function generateNewBox (){
 
 //creo l'evento per il quale si genera la griglia
 startButton.addEventListener('click', function(){
+    console.log(difficulty.value)
     //aggiungo un reset per non generare box infiniti
     gridParent.innerHTML = '';
     //ciclo for per popolare la griglia con i nuovi box
